@@ -1,0 +1,12 @@
+from l12_classes2 import Planet
+
+hoth = Planet("Venus", 4000, 4.2, "Solar System")
+print(f'Name is: {hoth.name}')
+print(f'Radius is: {hoth.radius}')
+print(f'Gravity is: {hoth.gravity}')
+print(f'System is: {hoth.system}')
+print(f'Shape is: {hoth.shape}')
+print(hoth.orbit())
+print(f'Common: {hoth.common()}')
+
+print(f'Spin: {hoth.spin(4000)}')
